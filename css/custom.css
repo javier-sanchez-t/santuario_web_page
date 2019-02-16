@@ -1,0 +1,86 @@
+    :root {
+      --main-bg-opacity: 0.8;
+      --main-bg-color: rgb(26, 66, 22);
+    }
+
+    .square1 {
+      display: inline;
+      float: left;
+      height: 100%;
+      width: 74%;
+      margin-right: 1%;
+      background-color: var(--main-bg-color);
+      border-top-left-radius: 10px;
+      opacity: var(--main-bg-opacity);
+      position: relative;
+    }
+
+    .square1Title {
+      position: absolute;
+      background-color: var(--main-bg-color);
+      color: white;
+      font-weight: bold;
+      top: 3%;
+      left: 3%;
+      right: 3%;
+      padding: 1%;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      text-align: center;
+      opacity: 0.9;
+    }
+
+    .square2 {
+      display: inline;
+      float: left;
+      height: 100%;
+      width: 25%;
+      background-color: var(--main-bg-color);
+      border-top-right-radius: 10px;
+      opacity: var(--main-bg-opacity);
+    }
+
+    .squareContainer1 {
+      height: 220px;
+      width: 100%;
+    }
+
+    .squareContainer2 {
+      height: auto;
+      width: 100%;
+      margin-top: 1%;
+      background-color: var(--main-bg-color);
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      opacity: var(--main-bg-opacity);
+    }
+
+    .squareContainerP2 {
+      padding-top: 2%;
+      padding-bottom: 2%;
+      margin-left: 3%;
+      margin-right: 3%;
+      color: white;
+    }
+
+    .squareP {
+      color: white;
+      margin-top: 10%;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    .squareImg {
+      width: 100%;
+      height: 100%;
+      border-top-left-radius: 10px;
+    }
+
+    .carousel .slide {
+      width: 100%;
+      height: 100%;
+    }
+
+    .carousel-item {
+      position: relative;
+    }
