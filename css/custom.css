@@ -3,6 +3,50 @@
       --main-bg-color: rgb(26, 66, 22);
     }
 
+    /*@font-face { font-family: Delicious; src: url('../fuentes/helvetica_fuentes/HelveticaLTStd-Blk.otf'); } 
+
+    body{ 
+      font-family: "Helvetica"; 
+    }*/
+
+    .containerRutas{
+      /*background-image: url('../img/rutas/rutas.svg');*/
+      background-image: url('http://revistaelconocedor.com/wp-content/uploads/2016/01/Magueyera-de-Armando_154-750x380.jpg');
+      background-repeat: no-repeat;
+      width: 100%;
+      background-size: cover; 
+    }
+
+    .rowSection{
+      margin-bottom: 2%;
+    }
+
+    .titleSection1{
+      background-color: var(--main-bg-color);
+      opacity: var(--main-bg-opacity);
+      text-align: center;
+      color: white;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      margin-top: 8%;
+      padding-top: 3%;
+    }
+
+    .titleSection2 {
+      width: 100%; 
+      height: 25px; 
+      background-color: var(--main-bg-color);
+      opacity: var(--main-bg-opacity);
+      border-bottom-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+      margin-bottom: 2%;
+    }
+
+    .logoSection{
+      height: 100%;
+      width: 100%;
+    }
+
     .square1 {
       display: inline;
       float: left;
@@ -27,7 +71,7 @@
       border-bottom-left-radius: 20px;
       border-bottom-right-radius: 20px;
       text-align: center;
-      opacity: 0.9;
+      /*opacity: 0.9;*/
     }
 
     .square2 {
