@@ -1,5 +1,7 @@
     :root {
       --main-bg-opacity: 0.8;
+      --page-bg-color: rgb(15, 10, 21);
+      --page-font-color: white;
       --rutas-bg-color: rgb(3, 104, 56);
     }
 
@@ -15,6 +17,8 @@
 
     body{ 
       font-family: 'HelveticaText'; 
+      background-color: var(--page-bg-color);
+      color: var(--page-font-color);
     }
 
     .title{
@@ -22,8 +26,32 @@
       font-size: 20px;
     }
 
+    .header{
+      margin-top: 20px;
+    }
+
+    .headerIcon{
+      width: 30px; 
+      height: 30px;
+      margin-right: 10px;
+    }
+
+    .headerReserva{
+      text-align: right;
+    }
+
+    .headerOpcionMenu{
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .headerOpcionMenuImg{
+      width: 50px;
+      height: 50px;
+    }
+
+
     .containerRutas{
-      /*background-image: url('../img/rutas/rutas.svg');*/
       background-image: url('../img/rutas/rutas_magueyes.jpg');
       background-repeat: no-repeat;
       width: 100%;
@@ -38,7 +66,6 @@
       background-color: var(--rutas-bg-color);
       opacity: var(--main-bg-opacity);
       text-align: center;
-      color: white;
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
       margin-top: 8%;
@@ -75,7 +102,6 @@
     .square1Title {
       position: absolute;
       background-color: var(--rutas-bg-color);
-      color: white;
       font-weight: bold;
       top: 3%;
       left: 3%;
@@ -117,11 +143,9 @@
       padding-bottom: 2%;
       margin-left: 3%;
       margin-right: 3%;
-      color: white;
     }
 
     .squareP {
-      color: white;
       margin-top: 10%;
       margin-left: 10%;
       margin-right: 10%;
