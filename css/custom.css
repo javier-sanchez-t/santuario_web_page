@@ -1,17 +1,30 @@
     :root {
       --main-bg-opacity: 0.8;
-      --main-bg-color: rgb(26, 66, 22);
+      --rutas-bg-color: rgb(3, 104, 56);
     }
 
-    /*@font-face { font-family: Delicious; src: url('../fuentes/helvetica_fuentes/HelveticaLTStd-Blk.otf'); } 
+    @font-face {
+      font-family: 'HelveticaText';
+      src: url('../css/fonts/Helvetica_LT_Std_Condensed.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'HelveticaTitles';
+      src: url('../css/fonts/Helvetica_LT_Std_Bold_Condensed.woff') format('woff');
+    }
 
     body{ 
-      font-family: "Helvetica"; 
-    }*/
+      font-family: 'HelveticaText'; 
+    }
+
+    .title{
+      font-family: 'HelveticaTitles'; 
+      font-size: 20px;
+    }
 
     .containerRutas{
       /*background-image: url('../img/rutas/rutas.svg');*/
-      background-image: url('https://pbs.twimg.com/media/Cp-PnkQWgAAYVlG.jpg');
+      background-image: url('../img/rutas/rutas_magueyes.jpg');
       background-repeat: no-repeat;
       width: 100%;
       background-size: cover; 
@@ -22,7 +35,7 @@
     }
 
     .titleSection1{
-      background-color: var(--main-bg-color);
+      background-color: var(--rutas-bg-color);
       opacity: var(--main-bg-opacity);
       text-align: center;
       color: white;
@@ -35,7 +48,7 @@
     .titleSection2 {
       width: 100%; 
       height: 25px; 
-      background-color: var(--main-bg-color);
+      background-color: var(--rutas-bg-color);
       opacity: var(--main-bg-opacity);
       border-bottom-left-radius: 50%;
       border-bottom-right-radius: 50%;
@@ -53,7 +66,7 @@
       height: 100%;
       width: 74%;
       margin-right: 1%;
-      background-color: var(--main-bg-color);
+      background-color: var(--rutas-bg-color);
       border-top-left-radius: 10px;
       opacity: var(--main-bg-opacity);
       position: relative;
@@ -61,7 +74,7 @@
 
     .square1Title {
       position: absolute;
-      background-color: var(--main-bg-color);
+      background-color: var(--rutas-bg-color);
       color: white;
       font-weight: bold;
       top: 3%;
@@ -79,7 +92,7 @@
       float: left;
       height: 100%;
       width: 25%;
-      background-color: var(--main-bg-color);
+      background-color: var(--rutas-bg-color);
       border-top-right-radius: 10px;
       opacity: var(--main-bg-opacity);
     }
@@ -93,7 +106,7 @@
       height: auto;
       width: 100%;
       margin-top: 1%;
-      background-color: var(--main-bg-color);
+      background-color: var(--rutas-bg-color);
       border-bottom-left-radius: 10px;
       border-bottom-right-radius: 10px;
       opacity: var(--main-bg-opacity);
