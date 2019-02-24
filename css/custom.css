@@ -58,6 +58,10 @@
       background-size: cover; 
     }
 
+    .section{
+      padding-top: 2%;
+    }
+
     .rowSection{
       margin-bottom: 2%;
     }
@@ -167,8 +171,18 @@
     }
 
     .squareWithBorders{
-      margin-top: 2%;
+      margin-top: 5%;
+      margin-right: 2%;
+      margin-left: 2%;
+      padding-top: 2%;
+      padding-left: 2%;
       border: 1px solid white;
       border-radius: 10px;
       font-size: 20px;
+    }
+
+    .iconFooter{
+      width: 25px;
+      height: 25px;
+      margin-left: 5px;
     }
