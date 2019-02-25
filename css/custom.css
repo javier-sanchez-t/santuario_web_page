@@ -24,6 +24,14 @@
     .title{
       font-family: 'HelveticaTitles'; 
       font-size: 20px;
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .titleImg{
+      width: 40px;
+      height: 40px;;
     }
 
     .header{
@@ -103,20 +111,6 @@
       position: relative;
     }
 
-    .square1Title {
-      position: absolute;
-      background-color: var(--rutas-bg-color);
-      font-weight: bold;
-      top: 3%;
-      left: 3%;
-      right: 3%;
-      padding: 1%;
-      border-bottom-left-radius: 20px;
-      border-bottom-right-radius: 20px;
-      text-align: center;
-      /*opacity: 0.9;*/
-    }
-
     .square2 {
       display: inline;
       float: left;
@@ -124,6 +118,23 @@
       width: 25%;
       background-color: var(--rutas-bg-color);
       border-top-right-radius: 10px;
+      opacity: var(--main-bg-opacity);
+    }
+
+    .square2Img{
+      width: 25px;
+      height: 25px;
+    }
+
+    .square2Info{
+      margin-bottom: 7%;
+    }
+
+    .squareContainer0 {
+      background-color: var(--rutas-bg-color);
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      margin-bottom: 1%;
       opacity: var(--main-bg-opacity);
     }
 
@@ -147,12 +158,6 @@
       padding-bottom: 2%;
       margin-left: 3%;
       margin-right: 3%;
-    }
-
-    .squareP {
-      margin-top: 10%;
-      margin-left: 10%;
-      margin-right: 10%;
     }
 
     .squareImg {
