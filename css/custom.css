@@ -107,7 +107,6 @@
       margin-right: 1%;
       background-color: var(--rutas-bg-color);
       border-top-left-radius: 10px;
-      opacity: var(--main-bg-opacity);
       position: relative;
     }
 
@@ -119,6 +118,8 @@
       background-color: var(--rutas-bg-color);
       border-top-right-radius: 10px;
       opacity: var(--main-bg-opacity);
+      padding-left: 10px;
+      padding-right: 10px;
     }
 
     .square2Img{
