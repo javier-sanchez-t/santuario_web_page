@@ -180,7 +180,9 @@
       margin-top: 5%;
       margin-right: 2%;
       margin-left: 2%;
+      margin-bottom: 10%;
       padding-top: 2%;
+      padding-bottom: 2%;
       padding-left: 2%;
       border: 1px solid white;
       border-radius: 10px;
@@ -200,6 +202,36 @@
       margin-left: 5px;
     }
 
+    .imgFacturacion{
+      width: 110px;
+      height: 80px;
+    }
+
+    .imgVuelos{
+      width: 65px;
+      height: 65px;
+    }
+
+    .imgClima{
+      width: 60px;
+      height: 60px;
+    }
+
+    .imgCalLunar{
+      width: 90px;
+      height: 80px;
+    }
+
+    .imgLlegar{
+      width: 60px;
+      height: 75px;
+    }
+
+    .imgsExtras{
+      margin-top: 3%;
+      margin-bottom: 3%;
+    }
+
     .divImgFooter{
       text-align: center;
     }
@@ -207,4 +239,8 @@
     .imgFooter{
       width: 130px;
       height: 50px;
+    }
+
+    .center{
+      text-align: center;
     }
