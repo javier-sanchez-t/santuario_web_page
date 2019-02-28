@@ -3,6 +3,7 @@
       --page-bg-color: rgb(15, 10, 21);
       --page-font-color: white;
       --rutas-bg-color: rgb(3, 104, 56);
+      --experiencias-bg-color: rgb(27, 129, 196);
     }
 
     @font-face {
@@ -66,6 +67,13 @@
       background-size: cover; 
     }
 
+    .containerExperiencias{
+      background-image: url('../img/experiencias/experiencias.jpg');
+      background-repeat: no-repeat;
+      width: 100%;
+      background-size: cover; 
+    }
+
     .section{
       padding-top: 2%;
     }
@@ -75,7 +83,6 @@
     }
 
     .titleSection1{
-      background-color: var(--rutas-bg-color);
       opacity: var(--main-bg-opacity);
       text-align: center;
       border-top-left-radius: 10px;
@@ -84,14 +91,29 @@
       padding-top: 3%;
     }
 
+    .titleSection1Rutas{
+      background-color: var(--rutas-bg-color);
+    }
+
+    .titleSection1Experiencias{
+      background-color: var(--experiencias-bg-color);
+    }
+
     .titleSection2 {
       width: 100%; 
       height: 25px; 
-      background-color: var(--rutas-bg-color);
       opacity: var(--main-bg-opacity);
       border-bottom-left-radius: 50%;
       border-bottom-right-radius: 50%;
       margin-bottom: 2%;
+    }
+
+    .titleSection2Rutas{
+      background-color: var(--rutas-bg-color);
+    }
+
+    .titleSection2Experiencias{
+      background-color: var(--experiencias-bg-color);
     }
 
     .logoSection{
@@ -103,7 +125,7 @@
       display: inline;
       float: left;
       height: 100%;
-      width: 74%;
+      width: 65%;
       margin-right: 1%;
       background-color: var(--rutas-bg-color);
       border-top-left-radius: 10px;
@@ -114,12 +136,19 @@
       display: inline;
       float: left;
       height: 100%;
-      width: 25%;
-      background-color: var(--rutas-bg-color);
+      width: 34%;
       border-top-right-radius: 10px;
       opacity: var(--main-bg-opacity);
       padding-left: 10px;
       padding-right: 10px;
+    }
+
+    .square2Rutas{
+      background-color: var(--rutas-bg-color);
+    }
+
+    .square2Experiencias{
+      background-color: var(--experiencias-bg-color);
     }
 
     .square2Img{
@@ -128,15 +157,22 @@
     }
 
     .square2Info{
-      margin-bottom: 7%;
+      margin-bottom: 5%;
     }
 
     .squareContainer0 {
-      background-color: var(--rutas-bg-color);
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
       margin-bottom: 1%;
       opacity: var(--main-bg-opacity);
+    }
+
+    .squareContainer0Rutas{
+      background-color: var(--rutas-bg-color);
+    }
+
+    .squareContainer0Experiencias{
+      background-color: var(--experiencias-bg-color);
     }
 
     .squareContainer1 {
@@ -148,10 +184,17 @@
       height: auto;
       width: 100%;
       margin-top: 1%;
-      background-color: var(--rutas-bg-color);
       border-bottom-left-radius: 10px;
       border-bottom-right-radius: 10px;
       opacity: var(--main-bg-opacity);
+    }
+
+    .squareContainer2Rutas{
+      background-color: var(--rutas-bg-color);
+    }
+
+    .squareContainer2Experiencias{
+      background-color: var(--experiencias-bg-color);
     }
 
     .squareContainerP2 {
