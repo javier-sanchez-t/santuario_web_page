@@ -3,8 +3,9 @@
       --page-bg-color: rgb(15, 10, 21);
       --page-font-color: white;
       --rutas-bg-color: rgb(3, 104, 56);
-      --experiencias-bg-color: rgb(27, 129, 196);
-      --gastronomia-bg-color: rgb(242, 146, 34);
+      --experiencias-bg-color: rgb(43,132,206);
+      --gastronomia-bg-color: rgb(243,147,61);
+      --hospedaje-bg-color: rgb(75,86,150);
     }
 
     @font-face {
@@ -82,6 +83,13 @@
       background-size: cover; 
     }
 
+    .containerHospedaje{
+      background-image: url('../img/hospedaje/hospedaje.jpg');
+      background-repeat: no-repeat;
+      width: 100%;
+      background-size: cover; 
+    }
+
     .section{
       padding-top: 2%;
     }
@@ -111,6 +119,10 @@
       background-color: var(--gastronomia-bg-color);
     }
 
+    .titleSection1Hospedaje{
+      background-color: var(--hospedaje-bg-color);
+    }
+
     .titleSection2 {
       width: 100%; 
       height: 25px; 
@@ -126,6 +138,10 @@
 
     .titleSection2Experiencias{
       background-color: var(--experiencias-bg-color);
+    }
+
+    .titleSection2Hospedaje{
+      background-color: var(--hospedaje-bg-color);
     }
 
     .logoSection{
@@ -167,6 +183,10 @@
       background-color: var(--gastronomia-bg-color);
     }
 
+    .square2Hospedaje{
+      background-color: var(--hospedaje-bg-color);
+    }
+
     .square2Img{
       width: 25px;
       height: 25px;
@@ -195,6 +215,10 @@
       background-color: var(--gastronomia-bg-color);
     }
 
+    .squareContainer0Hospedaje{
+      background-color: var(--hospedaje-bg-color);
+    }
+
     .squareContainer1 {
       height: 220px;
       width: 100%;
@@ -219,6 +243,10 @@
 
     .squareContainer2Gastronomia{
       background-color: var(--gastronomia-bg-color);
+    }
+
+    .squareContainer2Hospedaje{
+      background-color: var(--hospedaje-bg-color);
     }
 
     .squareContainerP2 {
