@@ -30,30 +30,30 @@
 
   <!--div class="container header">
     <div class="row">
-      <div class="col headerOpcionMenu">
+      <div class="col d-none d-lg-block headerOpcionMenu">
         ATENCIÓN TURÍSTICA
         <img class="headerOpcionMenuImg" src="img/icons/Atencion a Cliente.svg">
       </div>
-      <div class="col headerOpcionMenu">
+      <div class="col d-none d-lg-block headerOpcionMenu">
         HOSPEDAJE
         <img class="headerOpcionMenuImg" src="img/icons/Hospedaje.svg">
       </div>
-      <div class="col headerOpcionMenu">
+      <div class="col d-none d-lg-block headerOpcionMenu">
         GASTROMOMÍA
         <img class="headerOpcionMenuImg" src="img/icons/Restaurante.svg">
       </div>
       <div class="col-4">
-        <img src="img/header/circulo bosque magico franja amarilla.svg" style="width: 100%; height: 100%;">
+        <img src="img/header/circulo bosque magico franja amarilla.svg" style="width: 80%; height: 80%;">
       </div>
-      <div class="col headerOpcionMenu">
+      <div class="col d-none d-lg-block headerOpcionMenu">
         EXPERIENCIA
         <img class="headerOpcionMenuImg" src="img/icons/experencias.svg">
       </div>
-      <div class="col headerOpcionMenu">
+      <div class="col d-none d-lg-block headerOpcionMenu">
         RUTAS
         <img class="headerOpcionMenuImg" src="img/icons/Rutas.svg">
       </div>
-      <div class="col headerOpcionMenu">
+      <div class="col d-none d-lg-block headerOpcionMenu">
         BUSQUE MÀGICO
       </div>
     </div>
@@ -61,8 +61,129 @@
 
 
 
+  <!-- NAV BAR-->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item active d-none d-lg-block center">
+          <a class="nav-link" href="#ATENCION_TURISTICA">
+            <img class="headerOpcionMenuImg" src="img/icons_menu/atencion turistica.png">
+          </a>
+        </li>
+        <li class="nav-item active d-lg-none left">
+          <a class="nav-link col" href="#ATENCION_TURISTICA">
+            <img class="headerOpcionMenuImgSM" src="img/icons/Atencion a Cliente.svg">
+            ATENCIÓN TURÍSTICA
+          </a>
+        </li>
+
+
+        <li class="nav-item active d-none d-lg-block center">
+          <a class="nav-link" href="#HOSPEDAJE">
+            <img class="headerOpcionMenuImg" src="img/icons_menu/hospedaje.png">
+          </a>
+        </li>
+        <li class="nav-item active d-lg-none left">
+          <a class="nav-link col" href="#HOSPEDAJE">
+            <img class="headerOpcionMenuImgSM" src="img/icons/Hospedaje.svg">
+            HOSPEDAJE
+          </a>
+        </li>
+
+
+        <li class="nav-item active d-none d-lg-block center">
+          <a class="nav-link" href="#GASTRONOMIA">
+            <img class="headerOpcionMenuImg" src="img/icons_menu/gastronimia.png">
+          </a>
+        </li>
+        <li class="nav-item active d-lg-none left">
+          <a class="nav-link col" href="#GASTRONOMIA">
+            <img class="headerOpcionMenuImgSM" src="img/icons/Restaurante.svg">
+            GASTRONOMíA
+          </a>
+        </li>
+
+        <!--li class="nav-item active center">
+          <a class="nav-link d-none d-lg-block" href="#">
+            <img class="headerOpcionMenuImg" src="img/icons_menu/atencion turistica.png">
+          </a>
+          <a class="col d-lg-none">
+            <img class="headerOpcionMenuImgSM" src="img/icons/Atencion a Cliente.svg">
+            ATENCIÓN TURÍSTICA
+          </a>
+        </li-->
+
+
+        <li class="nav-item active" style="width: 300px;">
+
+        </li>
+
+
+        <li class="nav-item active d-none d-lg-block center">
+          <a class="nav-link" href="#EXPERIENCIAS">
+            <img class="headerOpcionMenuImg" src="img/icons_menu/experiencia.png">
+          </a>
+        </li>
+        <li class="nav-item active d-lg-none left">
+          <a class="nav-link col" href="#EXPERIENCIAS">
+            <img class="headerOpcionMenuImgSM" src="img/icons/experencias.svg">
+            EXPERIENCIA
+          </a>
+        </li>
+
+
+        <li class="nav-item active d-none d-lg-block center">
+          <a class="nav-link" href="#RUTAS">
+            <img class="headerOpcionMenuImg" src="img/icons_menu/rutas.png">
+          </a>
+        </li>
+        <li class="nav-item active d-lg-none left">
+          <a class="nav-link col" href="#RUTAS">
+            <img class="headerOpcionMenuImgSM" src="img/icons/Rutas.svg">
+            RUTAS
+          </a>
+        </li>
+
+
+        <li class="nav-item active d-none d-lg-block center">
+          <a class="nav-link" href="#RUTAS">
+            <img class="headerOpcionMenuImg" src="img/icons_menu/bosque magico.png">
+          </a>
+        </li>
+        <li class="nav-item active d-lg-none left">
+          <a class="nav-link col" href="#RUTAS">
+            <img class="headerOpcionMenuImgSM" src="img/icons_menu/bosque magico.png">
+            BOSQUE MÁGICO
+          </a>
+        </li>
+
+
+      </ul>
+    </div>
+
+  </nav>
+
+
+  <!-- VIDEO -->
+  <div>
+    <img class="logo" src="img/header/circulo bosque magico franja amarilla.svg" style="">
+
+    <video autoplay muted loop id="myVideo">
+      <source src="video/mundo.mp4" type="video/mp4">
+    </video>
+  </div>
+
+
+
   <!-- RUTAS -->
-  <div class="containerRutas">
+  <div id="RUTAS" class="containerRutas">
 
     <div class="container section">
 
@@ -334,7 +455,7 @@
 
 
   <!-- EXPERIENCIAS -->
-  <div class="containerExperiencias">
+  <div id="EXPERIENCIAS" class="containerExperiencias">
 
     <div class="container section">
 
@@ -793,7 +914,7 @@
 
 
   <!-- GASTRONOMIA -->
-  <div class="containerGastronomia">
+  <div id="GASTRONOMIA" class="containerGastronomia">
 
     <div class="container section">
 
@@ -894,7 +1015,7 @@
         </div>
 
 
-        <!-- RUTAS SQUARE 2-->
+        <!-- GASTRONOMIA SQUARE 2-->
         <div class="col-sm">
 
           <div class="squareContainer0 squareContainer0Gastronomia title">
@@ -982,7 +1103,7 @@
       </div>
 
 
-      <!-- RUTAS SQUARE 3-->
+      <!-- GASTRONOMIA SQUARE 3-->
       <div class="row">
         <div class="col-sm">
 
@@ -1074,7 +1195,7 @@
 
 
   <!-- HOSPEDAJE -->
-  <div class="containerHospedaje">
+  <div id="HOSPEDAJE" class="containerHospedaje">
 
     <div class="container section">
 
@@ -1090,7 +1211,7 @@
 
       <div class="row">
 
-        <!-- EXPERIENCIAS SQUARE 1-->
+        <!-- HOSPEDAJE SQUARE 1-->
         <div class="col-sm">
 
           <div class="squareContainer0 squareContainer0Hospedaje title">
@@ -1174,7 +1295,7 @@
         </div>
 
 
-        <!-- EXPERIENCIAS SQUARE 2-->
+        <!-- HOSPEDAJE SQUARE 2-->
         <div class="col-sm">
 
           <div class="squareContainer0 squareContainer0Hospedaje title">
@@ -1255,7 +1376,7 @@
       </div>
 
 
-      <!-- EXPERIENCIAS SQUARE 3-->
+      <!-- HOSPEDAJE SQUARE 3-->
       <div class="row">
         <div class="col-sm">
 
@@ -1300,7 +1421,7 @@
             <div class="square2 square2Hospedaje">
               <div>
                 <img src="img/icons_footer/clima.svg" class="square2Img">
-                Entrada: 3:00 p.m.  
+                Entrada: 3:00 p.m.
               </div>
               <div class="square2Info">
                 Salida: 11:00 a.m.
@@ -1337,7 +1458,7 @@
         </div>
 
 
-        <!-- EXPERIENCIAS SQUARE 4-->
+        <!-- HOSPEDAJE SQUARE 4-->
         <div class="col-sm">
 
           <div class="squareContainer0 squareContainer0Hospedaje title">
@@ -1418,7 +1539,7 @@
         </div>
       </div>
 
-      <!-- EXPERIENCIAS SQUARE 5-->
+      <!-- HOSPEDAJE SQUARE 5-->
       <div class="row">
         <div class="col-sm">
 
@@ -1466,8 +1587,8 @@
                 Entrada: 3:00 p.m.
               </div>
               <div>
-                Salida: 11:00 a.m. 
-              </div>  
+                Salida: 11:00 a.m.
+              </div>
 
               <div>
                 <img src="img/icons_footer/clima.svg" class="square2Img">
@@ -1508,7 +1629,7 @@
 
 
   <!-- ATENCION TURISTICA -->
-  <div class="container section">
+  <div id="ATENCION_TURISTICA" class="container section">
     <div class="row justify-content-center rowSection">
       <div class="col-7 col-sm-3">
         <img class="logoSection" src="img/atencion_turistica/circulo antencion turistica.svg">
