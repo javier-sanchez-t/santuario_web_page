@@ -53,6 +53,11 @@
       margin-right: 10px;
     }
 
+    .headerImgMiReserva{
+      width: 130px;
+      height: auto;
+    }
+
     .headerReserva{
       text-align: right;
     }
