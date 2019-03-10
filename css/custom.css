@@ -3,6 +3,7 @@
       --page-bg-color: rgb(15, 10, 21);
       --header-bg-color: rgb(8,3,12);
       --page-font-color: white;
+      --bosque-bg-color: rgb(1,0,2);
       --rutas-bg-color: rgb(3, 104, 56);
       --experiencias-bg-color: rgb(43,132,206);
       --gastronomia-bg-color: rgb(243,147,61);
@@ -128,6 +129,18 @@
       background-repeat: no-repeat;
       width: 100%;
       background-size: cover; 
+    }
+
+    .sectionBosqueMagico{
+      padding-top: 30%;
+      padding-bottom: 2%;
+    }
+
+    .sectionContBosqueMagico{
+      background-color: var(--bosque-bg-color);
+      padding: 1%;
+      margin: 1%;
+      border-radius: 10px;
     }
 
     .section{
