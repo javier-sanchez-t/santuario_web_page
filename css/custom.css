@@ -397,5 +397,37 @@
       text-align: left;
     }
 
+    .modal-header{
+      border: none;
+    }
+
+    .modal-footer{
+      border: none;
+    }
+
+    .modal-content{
+      border-radius: 10px;
+    }
+
+    #facturaModalTittle{
+      text-align: center;
+      width: 100%;
+    }
+
+    #factModalLogo{
+      width: 20%;
+      margin-bottom: 3%;
+    }
+
+    .modal-content{
+      background-image: url("../img/experiencias/experiencias.jpg");
+      background-repeat: no-repeat;
+      width: 100%;
+      background-size: cover; 
+    }
+
+    /*.facturaModalContent{
+      margin-top: 5%;
+    }*/
 
 
