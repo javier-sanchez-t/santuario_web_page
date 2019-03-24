@@ -95,7 +95,7 @@
           width: 25%;
           height: auto;
           margin-left: calc(50% - 12.5%);
-          margin-top: calc(-20% + 30px);
+          margin-top: calc(-15% + 30px);
       }
     }
 
@@ -304,7 +304,7 @@
     }
 
     .squareContainer1 {
-      height: 220px;
+      height: 250px;
       width: 100%;
     }
 
@@ -382,28 +382,28 @@
     }
 
     .imgFacturacion{
-      width: 110px;
-      height: 80px;
+      width: 100%;
+      height: auto;
     }
 
     .imgVuelos{
-      width: 65px;
-      height: 65px;
+      width: 100%;
+      height: auto;
     }
 
     .imgClima{
-      width: 60px;
-      height: 60px;
+      width: 100%;
+      height: auto;
     }
 
     .imgCalLunar{
-      width: 90px;
-      height: 80px;
+      width: 100%;
+      height: auto;
     }
 
     .imgLlegar{
-      width: 60px;
-      height: 75px;
+      width: 100%;
+      height: auto;
     }
 
     .imgsExtras{
