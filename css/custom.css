@@ -81,12 +81,33 @@
     }
 
         /* Header */
-    .logo{
+    /*.logo{
       position: absolute;
       width: 15%;
       height: auto;
       margin-left: calc(50% - 7.5%);
       margin-top: calc(-12% + 30px);
+    }*/
+    @media only screen and (max-width: 750px) {
+      /* For mobile phones: */
+      [class*="logo"] {
+          position: absolute;
+          width: 25%;
+          height: auto;
+          margin-left: calc(50% - 12.5%);
+          margin-top: calc(-20% + 30px);
+      }
+    }
+
+    @media only screen and (min-width: 751px) {
+      /* For mobile phones: */
+      [class*="logo"] {
+        position: absolute;
+        width: 15%;
+        height: auto;
+        margin-left: calc(50% - 7.5%);
+        margin-top: calc(-12% + 30px);
+      }
     }
     
     
@@ -208,8 +229,8 @@
     }
 
     .logoSection{
-      height: 100%;
-      width: 100%;
+      height: 100px;
+      width: 100px;
     }
 
     .square1 {
