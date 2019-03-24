@@ -90,7 +90,7 @@
     }*/
     @media only screen and (max-width: 750px) {
       /* For mobile phones: */
-      [class*="logo"] {
+      [class="logo"] {
           position: absolute;
           width: 25%;
           height: auto;
@@ -101,7 +101,7 @@
 
     @media only screen and (min-width: 751px) {
       /* For mobile phones: */
-      [class*="logo"] {
+      [class="logo"] {
         position: absolute;
         width: 15%;
         height: auto;
@@ -229,8 +229,8 @@
     }
 
     .logoSection{
-      height: 100px;
-      width: 100px;
+      height: 100%;
+      width: 100%;
     }
 
     .square1 {
