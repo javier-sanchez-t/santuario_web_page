@@ -32,6 +32,7 @@ function clearModalFacturacion() {
 }
 
 function sendFacturasForm() {
+    console.log("Sending image=======>");
     var noReservacion = document.getElementById("noReservacion").value;
     var fechaViaje = document.getElementById("fechaReservacion").value;
     var cantidad = document.getElementById("cantidad").value;
