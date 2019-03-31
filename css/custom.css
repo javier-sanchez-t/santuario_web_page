@@ -3,7 +3,7 @@
       --page-bg-color: rgb(15, 10, 21);
       --header-bg-color: rgb(8,3,12);
       --page-font-color: white;
-      --bosque-bg-color: rgb(1,0,2);
+      --bosque-bg-color: rgb(82,12,173);
       --rutas-bg-color: rgb(3, 104, 56);
       --experiencias-bg-color: rgb(43,132,206);
       --gastronomia-bg-color: rgb(243,147,61);
@@ -124,7 +124,27 @@
         margin-top: calc(-12% + 30px);
       }
     }
-    
+
+    @media only screen and (max-width: 751px) {
+      /* For mobile phones: */
+      [class="sectionContBosqueMagico1"] {
+        display: none;
+      }
+    }
+
+    @media only screen and (min-width: 751px) {
+      /* For mobile phones: */
+      [class="sectionContBosqueMagico2"] {
+        display: none;
+      }
+    }
+
+    @media only screen and (min-width: 751px) {
+      /* For mobile phones: */
+      [class="carruselBosqueMagico"] {
+        height: 100px!important;
+      }
+    }
     
     /* Video */
     #myVideo {
@@ -195,6 +215,13 @@
       border-radius: 10px;
       position: absolute; 
       bottom: 10%;
+      opacity: var(--main-bg-opacity);
+    }
+
+    .sectionContBosqueMagico2{
+      background-color: var(--bosque-bg-color);
+      opacity: var(--main-bg-opacity);
+      padding: 20px;
     }
 
     .section{
@@ -474,7 +501,7 @@
     }
 
     .modal-content{
-      background-image: url("../img/experiencias/experiencias.jpg");
+      /*background-image: url("../img/experiencias/experiencias.jpg");*/
       background-repeat: no-repeat;
       width: 100%;
       background-size: cover; 
