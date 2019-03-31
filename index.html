@@ -578,16 +578,16 @@
                 <img src="img/icons_sections/horario.png" class="square2Img">
                 Entrada: 3:00 p.m.
               </div>
-              <div class="square2Info">
+              <div>
                 Salida: 11:00 a.m.
               </div>
 
-              <div class="square2Info">
+              <div>
                 <img src="img/icons_sections/precio.png" class="square2Img">
-                Precio: $960.00 (por persona)
+                Precio: $960.00 (c.u.)
               </div>
 
-              <div class="square2Info">
+              <div>
                 <img src="img/icons_sections/capacidad de personas.png" class="square2Img">
                 Cap. Máx.: 14 personas
               </div>
@@ -595,7 +595,7 @@
               <div>
                 Servicios:
               </div>
-              <div class="square2Info">
+              <div>
                 <img src="img/icons_sections/Restaurante.svg" class="square2Img">
                 <img src="img/icons_sections/paintball.png" class="square2Img">
                 <img src="img/icons_sections/estacionamiento.png" class="square2Img">
@@ -1730,7 +1730,9 @@
               <br><br>
             </div>
             <div>
-              <img class="iconFooter" src="img/icons_footer/icono telefono.svg">
+              <a href="tel:+52-748-105-8319">
+                <img class="iconFooter" src="img/icons_footer/icono telefono.svg">
+              </a>
               <a
                 href="https://wa.me/+527481058319?text=Santuario de las luciérnagas, Bosque Mágico.%0ATemporada Junio-Agosto.%0A%0A Hola! deseo solicitar información sobre sus servicios. %0AMuchas gracias!">
                 <img class="iconFooter" src="img/icons_footer/icono whatsapp.svg">
@@ -1738,7 +1740,9 @@
               748 105 8319
             </div>
             <div>
-              <img class="iconFooter" src="img/icons_footer/icono telefono.svg">
+              <a href="tel:+52-748-106-9122">
+                <img class="iconFooter" src="img/icons_footer/icono telefono.svg">
+              </a>
               <a
                 href="https://wa.me/+527481069122?text=Santuario de las luciérnagas, Bosque Mágico.%0ATemporada Junio-Agosto.%0A%0A Hola! deseo solicitar información sobre sus servicios. %0AMuchas gracias!">
                 <img class="iconFooter" src="img/icons_footer/icono whatsapp.svg">
@@ -1761,7 +1765,9 @@
                 <br><br>
               </div>
               <div>
-                <img class="iconFooter" src="img/icons_footer/icono telefono.svg">
+                <a href="tel:+52-748-105-8284">
+                  <img class="iconFooter" src="img/icons_footer/icono telefono.svg">
+                </a>
                 <a
                   href="https://wa.me/+527481058284?text=Santuario de las luciérnagas, Bosque Mágico.%0ATemporada Junio-Agosto.%0A%0A Hola! deseo solicitar información sobre sus servicios. %0AMuchas gracias!">
                   <img class="iconFooter" src="img/icons_footer/icono whatsapp.svg">
@@ -1780,7 +1786,7 @@
           </div>
 
           <div class="col-6 col-sm-3 center" style="margin-top: 10px;">
-            <a href="#" data-toggle="modal" data-target="#facturaModal">
+            <a href="#" data-toggle="modal" data-target="#facturaModal" onclick="clearModalFacturacion();">
               <img class="imgFacturacion" src="img/icons_footer/facturacion.png">
             </a>
           </div>
@@ -1814,7 +1820,7 @@
 
   <!-- MODAL FACTURA -->
   <div class="modal fade" id="facturaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
+    aria-hidden="true" style="color: black;">
 
     <div class="modal-dialog modal-lg" role="document" id="facturaModalContent">
       <div class="modal-content">
@@ -1872,8 +1878,8 @@
               <div class="col-sm-1"></div>
               <div class="col-sm-11">
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="gridCheck1">
-                  <label class="form-check-label" for="gridCheck1">
+                  <input class="form-check-input" type="checkbox" id="extranjero">
+                  <label class="form-check-label" for="extranjero">
                     Extranjeros
                   </label>
                 </div>
@@ -1882,16 +1888,12 @@
 
             <div class="form-group row">
               <div class="col-sm-12" style="text-align: right;">
-                <button type="submit" class="btn btn-primary">Solicitar factura</button>
+                <button type="submit" class="btn btn-primary" onclick="sendFacturasForm();">Solicitar factura</button>
                 <button data-dismiss="modal" class="btn btn-danger">Cancelar</button>
               </div>
             </div>
           </form>
         </div>
-        <!--div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-          <button type="button" class="btn btn-primary">Solicitar factura</button>
-        </div-->
       </div>
     </div>
 
@@ -1919,6 +1921,7 @@
 
 </body>
 
+<script src="js/smtp.js"></script>
 <script src="js/util.js"></script>
 
 </html>
