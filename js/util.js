@@ -63,7 +63,7 @@ function sendFacturasForm() {
         Host: "smtp.gmail.com",
         Username: "jefe10jav@gmail.com",
         Password: "javi10%st",
-        To: 'jefe10jav@gmail.com',
+        To: 'facturas@bosquemagico.com.mx',
         From: "jefe10jav@gmail.com",
         Subject: "Solicitud de facturación",
         Body: bodyEmail
