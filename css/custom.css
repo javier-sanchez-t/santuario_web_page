@@ -3,7 +3,7 @@
       --page-bg-color: rgb(15, 10, 21);
       --header-bg-color: rgb(8,3,12);
       --page-font-color: white;
-      --bosque-bg-color: rgb(82,12,173);
+      --bosque-bg-color: rgb(18,5,33);
       --rutas-bg-color: rgb(3, 104, 56);
       --experiencias-bg-color: rgb(43,132,206);
       --gastronomia-bg-color: rgb(243,147,61);
@@ -143,6 +143,13 @@
       /* For mobile phones: */
       [class="carruselBosqueMagico"] {
         height: 100px!important;
+      }
+    }
+
+    @media only screen and (min-width: 751px) {
+      /* For mobile phones: */
+      [class="tittleFooter"] {
+        font-size: 20px;
       }
     }
     
@@ -516,4 +523,7 @@
       background-color: var(--page-bg-color);
     }
 
+    .tittleFooter{
+      font-size: 25px;
+    }
 

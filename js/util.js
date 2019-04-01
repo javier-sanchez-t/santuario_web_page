@@ -38,6 +38,13 @@ function sendFacturasForm() {
     var RFC = document.getElementById("rfc").value;
     var extranjero = document.getElementById("extranjero").checked;
 
+    /*if (noReservacion != null && noReservacion != undefined && noReservacion != ""
+        && fechaViaje != null && fechaViaje != undefined && fechaViaje != ""
+        && cantidad != null && cantidad != undefined && cantidad != "") {
+
+        return;
+    }*/
+
     var bodyEmail = "<strong>No. Reservación:</strong> " + noReservacion + "<br/>" +
         "<strong>Fecha de viaje:</strong> " + fechaViaje + "<br/>" +
         "<strong>Cantidad:</strong> $" + cantidad;
